@@ -39,9 +39,16 @@ Si prefieres navegar por archivos, cada tema tiene su carpeta en `temas/` con tr
 | 18 | Supervisado | [Selección de variables](temas/18-seleccion-variables/README.md) | [py](temas/18-seleccion-variables/codigo.py) | [R](temas/18-seleccion-variables/codigo.R) | Clase 12, Clase 13 |
 | 19 | Supervisado | [Ridge, LASSO y Elastic Net](temas/19-ridge-lasso-elasticnet/README.md) | [py](temas/19-ridge-lasso-elasticnet/codigo.py) | [R](temas/19-ridge-lasso-elasticnet/codigo.R) | Clase 14 |
 
-## Referencia rápida
+## Cheatsheet
 
-Ver **[`cheatsheet.md`](cheatsheet.md)** para la tabla de funciones equivalentes entre R y Python.
+Hay dos, para usos distintos:
+
+- **[`cheatsheet.ipynb`](cheatsheet.ipynb)**: notebook con los 19 temas, teoría con fórmulas y
+  código de Python **ya ejecutado con las salidas y las figuras guardadas**, más el bloque
+  equivalente en R en cada tema. Se abre en Jupyter, Colab o VS Code. Es el que conviene tener
+  abierto durante el parcial junto con `index.html`.
+- **[`cheatsheet.md`](cheatsheet.md)**: la tabla seca de funciones equivalentes entre R y Python,
+  para buscar un nombre de función en dos segundos.
 
 ## Sobre el origen del código
 
@@ -61,3 +68,4 @@ dictaron en **R**.
 
 La carpeta `datos/` tiene los archivos que usan los códigos en R: `measure.txt`, `digits.txt` y
 `sponge.txt`.
+
